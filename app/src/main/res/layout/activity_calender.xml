@@ -30,24 +30,59 @@
         android:id="@+id/calender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press to pick a time"
+        android:text="Open calender"
+        android:textColor="#ED6222"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.441" />
 
     <Button
         android:id="@+id/book_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
         android:text="Book the appointment"
+        android:textAllCaps="false"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.752" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="337dp"
+        android:layout_height="137dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Choose the perfect date for your plumbing appointment by selecting a date on the calendar below"
+        android:textAlignment="center"
+        android:textColor="#121010"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="321dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif-light"
+        android:text="After selecting a date, book the appointment!"
+        android:textAlignment="center"
+        android:textColor="#121010"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,14 +11,14 @@
         android:layout_width="131dp"
         android:layout_height="57dp"
         android:background="#B3284F"
-        android:backgroundTint="#CDDC39"
+        android:backgroundTint="#3678E6"
         android:text="@string/start"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#2196F3"
         android:textColorHint="#2196F3"
         android:textColorLink="#2196F3"
         android:textSize="25sp"
-        app:iconTint="#2196F3"
+        app:iconTint="#5795C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,13 +28,13 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="403dp"
-        android:layout_height="426dp"
+        android:layout_width="411dp"
+        android:layout_height="425dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.052"
+        app:layout_constraintVertical_bias="0.08"
         app:srcCompat="@drawable/photo_2023_03_02_15_44_09" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
